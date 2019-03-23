@@ -1,0 +1,117 @@
+/****************** START SLIDER ******************/
+.slider
+{
+  blockquote
+    {
+      font:{
+          size:20px;
+          style:italic;
+          weight:bold;
+          family: Tahoma,Arial;
+        }
+      line-height: 1.7;
+      text-align: center;
+      color: #5e5e5e;
+      width: 80%;
+      margin: 30px auto;
+    }
+  img
+    {
+      max-width: 100%;
+    }
+  .bullets
+    {
+      text-align: center;
+        li
+          {
+            display: inline-block;
+            background-color: $TextColor;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 1.5px solid $TextColor;
+            &.active,&:hover{
+              background-color: #FFF;
+              border:1.5px solid #333;
+            }
+      }
+    }
+}
+/****************** START SERVICES BOXES ******************/
+.services
+{
+  .Services-boxes
+  {
+    float: left;
+    width: (100% / 3);
+    &:not(:last-of-type){
+      padding-right: 12px;
+    }
+    .head-services
+    {
+      i
+      {
+        font-size: 30px;
+        position: relative;
+        top: 2px;
+        margin-right: 2px;
+      }
+    }
+    p
+    {
+      color: #5e5e5e;
+    }
+    .link-services{
+      text-decoration: none;
+      color: $mainColor;
+    }
+  }
+}
+
+/****************** START HUMANS BOXES ******************/
+.HUMANS
+{
+  .Human-boxes
+  {
+    float: left;
+    width: (100% / 5);
+    padding-right: 20px;
+    .img-human
+    {
+      max-width: 100%;
+    }
+    .head-Human
+    {
+      font-weight: normal;
+      span{
+        font-weight: bold;
+      }
+    }
+    p
+    {
+      color: #5e5e5e;
+    }
+    .link-Human{
+      text-decoration: none;
+      color: $mainColor
+    }
+  }
+}
+
+/****************** START Img BOXES ******************/
+.IMG
+{
+  .Img-boxes
+  {
+    float: left;
+    width: (100% / 3);
+    &:not(:last-of-type){
+      margin-right: 0%;
+    }
+    .img-Img
+    {
+      max-width: 100%;
+
+    }
+  }
+}

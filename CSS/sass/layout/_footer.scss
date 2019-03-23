@@ -1,0 +1,92 @@
+.footer
+{
+  background-color: #e2e2e2;
+  overflow: hidden;
+  padding-top: 30px;
+  margin-top: 50px;
+
+  .GALLARY,.INFO,.CONTACT{
+    float: left;
+  }
+  .GALLARY{
+    width: 50%;
+    .img-GALLARY{
+      overflow: hidden;
+      margin-bottom: 15px;
+      img{
+        float: left;
+        width: 150px;
+        height: 150px;
+      }
+      .TEXT{
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px;
+        width: calc(100% - 180px);
+        h4{
+          color: $mainColor;
+          margin: 20px 0 0;
+        }
+        p{
+          color: #555;
+          line-height: 1.6;
+          margin-top: 7px;
+        }
+      }
+    }
+  }
+  .INFO{
+    width: 25%;
+    ul{
+      color: #555;
+      line-height: 1.6;
+      li{
+        span{
+          color: $mainColor;
+        }
+      }
+    }
+    h4{
+      color: $mainColor;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+    p{
+      color: #555;
+      line-height: 1.6;
+      margin-top: 5px;
+      margin-bottom: 0;
+    }
+  }
+  .CONTACT{
+    width: 25%;
+    input[type="text"],input[type="email"],textarea{
+      border: 1px solid #555;
+      padding: 10px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      width: 100%;
+    }
+    textarea{
+      height: 100px;
+    }
+  }
+  .head-footer{
+    font-weight: normal;
+    color: #000;
+  }
+  .COPYRIGHT
+  {
+    padding: 20px 0;
+    border-top: 0.5px solid #555;
+    overflow: hidden;
+    color: #000;
+    .COPYRIGHT-TEXT,.PROGRAMER{
+      float: left;
+      width: 50%;
+    }
+    .PROGRAMER{
+      text-align: right;
+    }
+  }
+}

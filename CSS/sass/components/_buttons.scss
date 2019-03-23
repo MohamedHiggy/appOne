@@ -1,0 +1,14 @@
+.CONTACT-btn{
+background-color: rgba($mainColor,.8);
+color: #FFF;
+border: none;
+padding: 10px 15px;
+text-align: center;
+min-width: 120px;
+border-radius: 10px;
+font-size: 21px;
+cursor: pointer;
+&:hover{
+    background-color: $mainColor;
+  }
+}
